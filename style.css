@@ -1,0 +1,61 @@
+	body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Metal Mania',  sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ 
+.buffer{
+	height:13rem;
+}
+
+h1{
+	color:yellow;
+	font-size: 72px;
+
+	
+}
+
+hr{
+	border-color: green;
+	border-width: 3px;
+	max-width: 65px;
+}
+h1:hover{
+	transform: scale(1.1);
+	background-color: yellow;
+	color:purple;
+	border: 2px solid blue;
+}
+
+.button:hover{
+	color: white;
+	border:2px solid white;
+	background-color: green;
+	transform: scale(1.1);
+	border-width: 4px;
+}
+
+.button{
+	background-color: white;
+	color: green;
+	border: 2px solid green;
+	margin:auto;
+	padding: 1rem 2rem;
+	font-weight: 700;
+	border-radius: 300px;
+}
+
+.wrapper{
+	display: table;
+	margin: auto;
+	text-align: center;	
+
+}
+

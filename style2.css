@@ -1,0 +1,77 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Metal Mania',  sans-serif;
+  background: url(qwerty.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	flex-wrap: wrap;
+	justify-content: center;  
+}
+.wrapper{
+  display: table;
+  margin: auto;
+  text-align: center; 
+
+}
+
+form{
+  border: 5px solid pink;
+  justify-content: center;
+  background-color: white;
+}
+
+h1{
+  font-family: 'Metal Mania', sans-serif
+}
+
+h1:hover{
+  color: red;
+  transform: scale(1.1);
+}
+
+.suscribe{
+  margin-top:1em;
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+  font-size: 23px;
+  margin-bottom: 1em;
+
+}
+
+.suscribe:hover{
+  color: white;
+  border:2px solid white;
+  background-color: green;
+  transform: scale(1.1);
+   border-width: 4px;
+}
+
+p{
+  font-family: 'Metal Mania', sans-serif
+  font-size: 23px;
+}
+
+.email{
+  font-size: 24px;
+}
+.email:hover{
+  color:red;
+  transform:scale(1.1);
+ 
+
+}
+
+.stuff{
+  text-align: right;
+  margin-right:2em; 
+  font-size:22px;
+  color: yellow;
+}
